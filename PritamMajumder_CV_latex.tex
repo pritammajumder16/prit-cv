@@ -1,0 +1,225 @@
+\documentclass[letterpaper,10.5pt]{article}
+% it was 11 earlier i made it 10.5
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.6in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    \textbf{\Huge \scshape Pritam Majumder} \\ \vspace{1pt}
+    \small +91 8777721047 $|$ \href{https://pritammajumder.in}{\underline{Portfolio}} $|$ 
+    \href{mailto:mail@pritammajumder.in}{\underline{mail@pritammajumder.in}} $|$ 
+    \href{https://www.linkedin.com/in/pritammajumder16}{\underline{LinkedIn}} $|$
+    \href{https://github.com/pritammajumder16}{\underline{Github}}   $|$  \href{mailto:mail@pritammajumder.in}{\underline{Email}}
+\end{center}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+\resumeSubheading
+      {Full Stack Developer}{March 2024 -- Present}
+      {Plutonapps (Whiterose Lab Pvt. Ltd.)}{Kolkata, West Bengal}
+      \resumeItemListStart
+        \resumeItem{Developed 3 Web apps with \emph{ Next.js, React, Node.js (Express), MongoDB, Mongoose, Tailwind  and Digital Ocean}}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Free Lancing}{Nov 2023 -- Feb 2024}
+      {Badshah Sherwani}{Kolkata, West Bengal}
+      \resumeItemListStart
+        \resumeItem{Developed a web application for a client using MERN stack and Digital Ocean and also did a DSA course}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Team Lead}{March 2021 -- Oct 2023}
+      {Blu Cocoon Digital Pvt. Ltd.}{Kolkata, West Bengal}
+      \resumeItemListStart
+        \resumeItem{Developed and maintained 5 web apps using \emph{ Angular, Node.js, Azure Functions, Azure CosmosDB and MongoDB.}}
+        \resumeItem{Managed a team of 20 developers and 4 testers to deliver projects on time and within budget.} \resumeItem{Oversaw project planning, resource allocation, and client communication to ensure client satisfaction.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Javascript, Typescript, C/C++,  HTML/CSS/SCSS} \\
+     \textbf{Frameworks}{: React, Angular, Next.js, Node.js, React Native, Tailwind, Azure Functions (NodeJS),  Express, React Three Fiber, Angular Material, Cordova, Node-red, Webrtc} \\\textbf{Database}{: MongoDB/Mongoose, Azure Cosmos DB (Gremlin API), My Sql(Basics)} \\
+     \textbf{Developer Tools}{: Git, Docker, Azure cloud platforms, AWS, Digital Ocean} \\
+     \textbf{Libraries}{: Passport.js, Mediasoup, Stripe}
+    }}
+ \end{itemize}
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Government College of engineering and textile technology}{Berhampore, West bengal}
+      {Bachelor of technology, in computer science engineering}{2016 -- 2020}
+    \resumeSubheading
+      {Kendriya Vidyalaya Command Hospital}{Kolkata, West Bengal}
+      {Higher secondary (Science)}{2014 -- 2016}
+  \resumeSubHeadingListEnd
+%-----------PROJECTS-----------
+\section{Personal Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Prit Banking systems} $|$ \emph{Next.js, Tailwind, Mongoose, Plaid, Dwolla, Sentry, Docker}}{\href{https://banking.pritammajumder.in}{\underline{banking.pritammajumder.in}}}
+          \resumeItemListStart
+            \resumeItem{A web app for users to connect bank accounts, view transactions, manage details, and transfer/request funds.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Prit Meet} $|$ \emph{React, Tailwind, Simple-Peer, Websocket, NodeJS, Express, Docker}}{\href{https://meet.pritammajumder.in}{\underline{meet.pritammajumder.in}}}
+          \resumeItemListStart
+            \resumeItem{A web app for users to create rooms and communicate through video, audio, text, and screen sharing.}
+          \resumeItemListEnd
+           \resumeProjectHeading
+          {\textbf{Prit Foodie} $|$ \emph{React Native, Tailwind, Mongoose, NodeJS, Express, Typescript, Docker}}{}
+          \resumeItemListStart
+            \resumeItem{A mobile app to order food online, like swiggy.}
+          \resumeItemListEnd
+          \resumeProjectHeading
+          {\textbf{Prit Closet} $|$ \emph{Angular, SCSS, Mongoose, NodeJS, Express, Docker}}{\href{https://closet.pritammajumder.in}{\underline{closet.pritammajumder.in}}}
+          \resumeItemListStart
+            \resumeItem{An e-commerce application where admins can upload clothing items, and users can browse and make purchases.}
+          \resumeItemListEnd
+          \resumeProjectHeading
+          {\textbf{Pritam Portfolio} $|$ \emph{React, React Three Fiber, React Three Drei, Tailwind, Docker}}{\href{https://pritammajumder.in}{\underline{pritammajumder.in}}}
+          \resumeItemListStart
+            \resumeItem{Developed a 3D portfolio to showcase my skills, and let other contact me.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    \section{Company Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Ekko} $|$ \emph{Next.js, Typescript, Mongoose, Stripe, Digital Ocean}}{Plutonapps Pvt. Ltd.}
+          \resumeItemListStart
+            \resumeItem{A SaaS platform for plan purchases, custom waitlist CMS, and domain integration, with super admin analytics.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Compareling} $|$ \emph{React, NodeJS, Express, Mongoose, Stripe, Digital Ocean}}{Plutonapps Pvt. Ltd.}
+          \resumeItemListStart
+            \resumeItem{A service app connecting agencies and users for payment, and developed a super admin side for analytics.} 
+          \resumeItemListEnd
+           \resumeProjectHeading
+          {\textbf{Pitch40} $|$ \emph{React, Node.js, Tailwind, Typescript, Digital Ocean, Websocket}}{Plutonapps Pvt. Ltd.}
+          \resumeItemListStart
+          \resumeItem{App linking startups \& investors for fundraises \& pitch uploads \& broker facilitation, w/ super admin analytics.}
+          \resumeItemListEnd
+          \resumeProjectHeading
+          {\textbf{i-Create} $|$ \emph{Angular, Azure Functions, scss, NodeJS, Azure CosmosDB, MongoDB, Socket.io}}{Blu Cocoon digital}
+          \resumeItemListStart
+            \resumeItem{App for Ingredion replacing the iCreate desktop app to fetch government food data and run tests on food items.}
+          \resumeItemListEnd   
+          \resumeProjectHeading
+          {\textbf{i360} $|$ \emph{Angular, Azure Functions, Azure, scss, NodeJS, Azure Cosmos DB, MongoDB}}{Blu Cocoon Digital}
+          \resumeItemListStart
+            \resumeItem{App for scientists to manage projects, tasks, experiments, tests, \& print barcodes \& gather customer feedback.}
+          \resumeItemListEnd
+          \resumeProjectHeading
+          {\textbf{Document management system} $|$ \emph{Angular, Node-Red, Azure VM, Azure, MongoDB}}{Blu Cocoon Digital}
+          \resumeItemListStart
+            \resumeItem{An app to centrally manage documents, allowing retrieval through various filters in a directory structure.}
+          \resumeItemListEnd
+    
+       \resumeProjectHeading
+  {\textbf{Tapioca Internal and External} $|$ \emph{Angular, Cordova, Azure Functions, MongoDB}}{Blu Cocoon Digital}
+  \resumeItemListStart
+    \resumeItem{Two apps: 1 for farmers to learn \& manage plantations \& 2nd for Ingredion to manage, buy from, \& help farmers.}
+  \resumeItemListEnd
+    \resumeSubHeadingListEnd
+%-------------------------------------------
+\end{document}
